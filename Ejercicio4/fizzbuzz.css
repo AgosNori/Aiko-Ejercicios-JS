@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif; /* Fuente de texto */
+    background-color: #f0f0f0; /* Color de fondo */
+    margin: 0; /* Margen cero para el body */
+    padding: 20px; /* Espacio interior */
+}
+
+.contenedor {
+    max-width: 400px; /* Ancho máximo del contenedor */
+    margin: 0 auto; /* Centra el contenedor */
+    padding: 20px; /* Espacio interior */
+    background-color: #ffffff; /* Fondo blanco */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+h1 {
+    text-align: center; /* Centra el texto del encabezado */
+    color: #333; /* Color del texto */
+}
+
+input[type="number"] {
+    width: 100%; /* Ancho completo del input */
+    padding: 10px; /* Espacio interior */
+    margin-top: 10px; /* Margen superior */
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 4px; /* Bordes redondeados */
+    box-sizing: border-box; /* Incluye el padding en el ancho total */
+}
+
+.boton {
+    width: 100%; /* Ancho completo del botón */
+    padding: 10px; /* Espacio interior */
+    margin-top: 10px; /* Margen superior */
+    background-color: #007bff; /* Color de fondo azul */
+    color: white; /* Color del texto en el botón */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar por encima */
+    font-size: 16px; /* Tamaño de fuente */
+    transition: background-color 0.3s; /* Transición para el color de fondo */
+}
+
+.boton:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro al pasar el mouse */
+}
+
+.boton:active {
+    background-color: #004494; /* Color de fondo aún más oscuro al hacer clic */
+}
